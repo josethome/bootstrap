@@ -14,45 +14,33 @@
     <title>Olá, Developer!</title>
   </head>
   <body>
-    <div class="container-fluid" id="row">
+    <div class="container-fluid">
       
       <!-- BOOTSTRAP - CSS -->
-        <div class="table-resposive"> 
-
-          <table class="table table-striped table-bordered table-hover">
-                   
+      <div class="row">
+        
+        <div class="col-md-4">
           
-            <!-- Header -->
-            <tr>
-              <td>Nome</td>
-              <td>Idade</td>
-              <td>Gênero</td>
-            </tr>
+            <form action="">
+        
+              <div class="form-group">
+                <label for="txt_nome">Nome:</label>
+                <input type="text" class="form-control" id="txt_nome" placeholder="Seu nome">
+              </div>
 
-            <!-- Linha 1 -->
-            <tr>
-              <td class="active">José</td>
-              <td>28</td>
-              <td>Masculino</td>
-            </tr>
+              <div class="form-group">
+                <label for="txt_email">E-mail:</label>
+                <input type="text" class="form-control" id="txt_email" placeholder="Seu e-mail">
+                <p class="help-block">Seu e-mail não será divulgado garantindo assim o direito de privacidade.</p>
+              </div>
 
-            <!-- Linha 2 -->
-            <tr>
-              <td>Fátima</td>
-              <td>23</td>
-              <td>Feninino</td>
-            </tr>
+              <button type="submit" class="btn btn-default">Enviar</button>
+              <!-- <input type="submit" value="Enviar"> -->
+            </form> 
 
-             <!-- Linha 3 -->
-            <tr>
-              <td>Renata</td>
-              <td>32</td>
-              <td>Feninino</td>
-            </tr>          
+        </div>
 
-          </table> 
-
-        </div>            
+      </div>        
 
     </div>    
 
