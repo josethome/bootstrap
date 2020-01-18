@@ -14,31 +14,45 @@
     <title>Olá, Developer!</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="row">
       
       <!-- BOOTSTRAP - CSS -->
-      <div class="row">
-        
-        <div class="col-md-12" id="coluna">
+        <div class="table-resposive"> 
+
+          <table class="table table-striped table-bordered table-hover">
+                   
           
-          <p class="text-left">Texto alinhado à esquerda.</p>
-          <p class="text-center">Texto alinhado ao centro.</p>
-          <p class="text-right">Texto alinhado à direita.</p>
-          <p class="text-justify">Texto justificado.</p>
-          <p class="text-nowrap">Texto sem alinhamento.</p><br>
+            <!-- Header -->
+            <tr>
+              <td>Nome</td>
+              <td>Idade</td>
+              <td>Gênero</td>
+            </tr>
 
-          <p class="text-lowercase">Exemplo de Texto em minúsculo.</p>
-          <p class="text-uppercase">Exemplo de Texto em maiúsculo.</p>
-          <!-- <p class="text-capitalize">Texto capitalizado.</p> -->
-          <p><span class="text-capitalize">exemplo</span> de texto capitalizado.</p>
+            <!-- Linha 1 -->
+            <tr>
+              <td class="active">José</td>
+              <td>28</td>
+              <td>Masculino</td>
+            </tr>
 
-        </div>
+            <!-- Linha 2 -->
+            <tr>
+              <td>Fátima</td>
+              <td>23</td>
+              <td>Feninino</td>
+            </tr>
 
-      </div><br />
-      <p>Lorem ipsum <span>dolor sit amet</span>, consectetur adipisicing elit.</p>
-      <p><strong>Doloribus</strong> doloremque esse saepe est, possimus quasi tempora nisi ut aliquam nostrum!</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <p>Deleniti suscipit fugit, soluta facere ab magni vero nisi quidem</p><br>
+             <!-- Linha 3 -->
+            <tr>
+              <td>Renata</td>
+              <td>32</td>
+              <td>Feninino</td>
+            </tr>          
+
+          </table> 
+
+        </div>            
 
     </div>    
 
