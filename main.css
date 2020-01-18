@@ -1,4 +1,8 @@
 /* MAIN.CSS */
+* {
+	margin-top: 5px;
+}
+
 #row {
 	border: 1px solid blue;
 }

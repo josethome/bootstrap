@@ -14,33 +14,39 @@
     <title>Olá, Developer!</title>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
       
-      <!-- BOOTSTRAP - CSS -->
-      <div class="row">
-        
-        <div class="col-md-4">
-          
-            <form action="">
-        
-              <div class="form-group">
-                <label for="txt_nome">Nome:</label>
-                <input type="text" class="form-control" id="txt_nome" placeholder="Seu nome">
-              </div>
+      <!-- BOOTSTRAP - CSS -->         
+      <form class="form-horizontal" action="">
+  
+        <div class="form-group">
+          <!-- A classe => class="sr-only" => Oculta o label -->
+          <label class="sr-only" for="txt_nome">Nome:</label>
+          <input type="text" class="form-control" id="txt_nome" placeholder="Usuário">
+        </div>&nbsp;&nbsp;&nbsp;
 
-              <div class="form-group">
-                <label for="txt_email">E-mail:</label>
-                <input type="text" class="form-control" id="txt_email" placeholder="Seu e-mail">
-                <p class="help-block">Seu e-mail não será divulgado garantindo assim o direito de privacidade.</p>
-              </div>
+        <div class="form-group">
+          <label class="sr-only" for="txt_email">E-mail:</label>
+          <input type="text" class="form-control" id="txt_email" placeholder="Senha">          
+        </div> 
 
-              <button type="submit" class="btn btn-default">Enviar</button>
-              <!-- <input type="submit" value="Enviar"> -->
-            </form> 
+        <div class="checkbox">
+          <label for="chk_conectado">
+            <input type="checkbox"> Continue conectado
+          </label>
+        </div>  
 
-        </div>
+        <div class="input-group">
+            
+            <div class="input-group-addon">$</div>
+              <input type="text" class="form-control" id="exampleInputAmount" placeholder="Valor">
+            <div class="input-group-addon">.00</div>
 
-      </div>        
+        </div><br>     
+
+        <button type="submit" class="btn btn-default">Enviar</button>      
+
+      </form>              
 
     </div>    
 
