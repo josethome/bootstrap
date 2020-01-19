@@ -19,27 +19,71 @@
       <!-- BOOTSTRAP - CSS -->         
       <form>
 
-        <label class="radio-inline">          
-            <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Péssimo
-        </label>
+        <div class="form-group has-success">
 
-        <label class="radio-inline">          
-            <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Ruim
-        </label> 
+          <label class="control-label" for="inputSuccess1">
+            Entrada com sucesso
+          </label>
 
-        <label class="radio-inline">          
-            <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Bom
-        </label> 
+          <input class="form-control" id="inputSuccess1" aria-dicribedby="helpBlock2" type="text">  
 
-        <label class="radio-inline">          
-            <input type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4"> Ótimo
-        </label>
+          <span class="help-block" id="helpBlock2">
+            A block of help text that breaks onto a new and may extend beyond one line.            
+          </span>        
 
-        <label class="radio-inline">          
-            <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5"> Muito bom
-        </label>                
+        </div>
 
-      </form>              
+        <div class="form-group has-success has-feedback">
+          
+          <labbel class="control-label" for="inputGroupSuccess1">
+            Grupo de entrada com sucesso
+          </labbel>
+
+          <div class="input-group">
+            <span class="input-group-addon">
+              @
+            </span>
+
+            <input class="form-control" id="inputGroupSuccess1" aria-discribebdy="inputGroupSuccess1Status" type="text">
+
+          </div>
+
+            <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true">              
+            </span>
+            <span class="sr-only" id="inputGroupSuccess1Satatus">
+              (sucesso)
+            </span> 
+
+        </div>
+
+        <fieldset disabled>
+          <label for="disabledTextInput">Entrada desativada</label>
+          <input class="form-control" id="disabledTextInput" type="text" placeholder="Disabled input">
+
+          <div class="form-group">
+
+            <label for="disabledSelect">Seleção de menu desativada</label>
+            <select class="form-control" id="disabledSelect">
+              
+              <option>seleção desativada</option>
+
+            </select>
+            
+          </div>
+
+          <div class="checkbox">
+
+            <label>              
+              <input type="checkbox"> Não pode checkar isso
+            </label>            
+            
+          </div> 
+
+          <button type="submit" class="btn btn-primary">Enviar</button> 
+
+        </fieldset>                  
+
+      </form>            
 
     </div>    
 
