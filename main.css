@@ -14,3 +14,13 @@
 .media-left {
 	margin-bottom: 20px;
 }
+
+.list-group-item a:link {
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+.list-group-item {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
