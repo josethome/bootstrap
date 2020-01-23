@@ -17,26 +17,31 @@
     <div class="container">
       
       <!-- BOOTSTRAP - CSS --> 
-      <div class="well">        
-        <p>Este parágrafo está dentro da classe well.</p>
-      </div>
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Launch demo modal
+      </button>
 
-      <div class="well well-sm">        
-        <p>Este parágrafo está dentro da classe well.</p>
-      </div>
-
-      <div class="row">
-
-        <div class="col-lg-6 col-md-6 col-ms-6 col-xs-6">
-
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/8xl4LViPVmY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>      
-              </iframe>               
-            </div>       
-          
-        </div>        
-
-      </div>         
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>        
 
     </div>      
 
