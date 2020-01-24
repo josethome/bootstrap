@@ -18,22 +18,17 @@
     <div class="container">
       
       <!-- BOOTSTRAP - CSS --> 
-      <a href="#" data-toggle="tooltip" title="Esta é uma hiperligação 1.">
-        Link-1
-      </a><br>
-
-      <a href="#" data-toggle="tooltip" title="Esta é uma hiperligação 2.">
-        Link-2
-      </a>     
+      <a href="#" data-toggle="popover" title="Popover Header" data-content="Descrição da função">Link</a>  
 
     </div>      
 
-    <!-- Optional JavaScript -->    
+    <!-- Optional JavaScript -->
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>       
     <script src="js/bootstrap.min.js"></script>
     <script>
       $(document).ready(function() {
-        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover();
       });
     </script>
     
